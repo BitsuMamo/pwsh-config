@@ -22,5 +22,9 @@ function pgrep($name) {
 Set-Alias -Name cd -Value z -Option AllScope
 Set-Alias -Name cat -Value bat -Option AllScope
 
+function br {
+    &"$PSScriptRoot\Set-WindowsTerminalBackgroundImage.ps1" -RandomBackgroundFolder C:\Users\Bitsu\Pictures\nord-background -All
+}
+
 Invoke-Expression (& { (zoxide init powershell | Out-String) })
 
