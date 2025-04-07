@@ -1,4 +1,4 @@
-neofetch
+fastfetch -c examples/24
 
 function Invoke-Starship-TransientFunction {
   &starship module character
